@@ -1,0 +1,19 @@
+name: JHAntiChatReport
+author: janhous
+main: org.eu.jhmc.dev.MC1191.antiChatReport.plugin
+version: 1.0
+api-version: 1.19
+description: "Anti Chat Report For Minecraft Server"
+commands:
+  JHAntiChatReport:
+    aliases:
+      - antiChatReport
+      - acr
+    description: "Toggle AntiChatReport(Only Console)"
+    usage: "Usage: /JHAntiChatReport [true|false] (Only Console)"
+  acrMute:
+    description: "Mute Player"
+    usage: "Usage: /acrMute <player>"
+  acrUnmute:
+    description: "UnMute Player"
+    usage: "Usage: /acrUnmute <player>"
